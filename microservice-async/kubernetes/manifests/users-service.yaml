@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: users
+  name: advertiser
   labels:
-    app: users
+    app: advertiser
 spec:
   selector:
-    app: users
+    app: advertiser
   ports:
   -
     protocol: TCP

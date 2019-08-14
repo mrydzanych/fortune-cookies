@@ -2,13 +2,13 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: users
+  name: advertiser
   labels:
-    app: users
+    app: advertiser
 spec:
   containers:
-  - name: users
-    image: localhost:5000/users
+  - name: advertiser
+    image: localhost:5000/advertiser
     imagePullPolicy: Always
     ports:
       - name: app
